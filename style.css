@@ -28,7 +28,7 @@ body::before {
 
 .login-box {
     width: 400px;
-    height: 400px;
+    height: 450px;
     padding: 5%;
     background: rgba(10, 10, 10, 0.514);
     border-radius: 10px;
@@ -110,4 +110,35 @@ body::before {
     transition: .5s;
     margin-top: 40px;
     letter-spacing: 4px
+}
+
+.login-box form button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: 50px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 70%;
+}
+
+.login-box form button:hover {
+    background: rgba(216, 137, 137, 0.452);
+    color: rgb(248, 245, 245);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: translateY(-5px);
+}
+
+.login-box form button:active {
+    transform: translateY(0);
 }
