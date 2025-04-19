@@ -1,33 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>GraphQL</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/profile-style.css">
+  <link rel="icon" href="imgs/logoGraph.png" type="image/png">
+  <title>GraphQL</title>
 </head>
+
 <body>
-
-<div class="login-box">
-    <div class="img-style">
-      <img src="profile.jpg" class="img">
-    </div>
-    <form id="login-form">
-      <div id="error-message" class="error-message" style="display: none;"></div>
-      <div class="user-box">
-        <input type="text" required id="username-input">
-        <label>Username</label>
-      </div>
-      <div class="user-box">
-        <input type="password" required id="password">
-        <label>Password</label>
-      </div>
-      <div class="login-submit">
-        <button type="submit" id="login-button">Login</button>
-      </div>
-    </form>
-</div>
-
-<script src="auth.js"></script>
+  <script type="module" src="./scripts/auth.js"></script>
+  <script type="module" src="./scripts/profileApi.js"></script>
 </body>
+
 </html>
